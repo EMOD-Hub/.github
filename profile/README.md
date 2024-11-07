@@ -8,11 +8,13 @@ Epidemiological MODeling software (EMOD), is an agent-based model (ABM) that sim
 
 EMOD is also stochastic, meaning that there is randomness built into the model. Infection and recovery processes are represented as probabilistic Bernoulli random draws. In other words, when a susceptible person comes into contact with a pathogen, they are not guaranteed to become infected. Instead, you can imagine flipping a coin that has a λ chance of coming up tails S(t) times, and for every person who gets a “head” you say they are infected. This randomness better approximates what happens in reality. It also means that you must run many simulations to determine the probability of particular outcomes.
 
-[History & Publication Samples](HistoryAndPublications.md)
-[Getting Started](GettingStarted.md)
-[The Repositories](Repositories.md)
-[Community](Community.md)
-[Contributing](Contributing.md)
+More Information
+-----------------
+- [History & Publication Samples](HistoryAndPublications.md)
+- [Getting Started](GettingStarted.md)
+- [The Repositories](Repositories.md)
+- [Community](Community.md)
+- [Contributing](Contributing.md)
 
 Disclaimer
 ----------
