@@ -1,7 +1,9 @@
 EMOD History & Publication Samples
 ===================================
 
-EMOD development was started by Philip Welkoff in 2010 to model malaria.  Since that time, EMOD has been used in numerous studies and policy decisions.  Below is short sample of papers about EMOD and that used EMOD:
+EMOD development was started by Philip Welkoff in 2010 to model malaria.  
+Since that time, EMOD has been used in numerous studies and policy decisions.  
+Below is short sample of papers about EMOD and that used EMOD:
 
 **A malaria transmission-directed model of mosquito life cycle and ecology**
 - Philip A Eckhoff
