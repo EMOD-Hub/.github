@@ -28,7 +28,8 @@ More Information
 - [The Repositories](Repositories.md)
 - [Be Part of the Community](Community.md)
 - [How to Contribute](Contributing.md)
-- [Documentation](https://docs.idmod.org/models.html#emod)
+- [Main Documentation](https://docs.idmod.org/models.html#emod)
+- [Presentations](Presentations.md)
 
 Disclaimer
 ----------
