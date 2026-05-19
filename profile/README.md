@@ -1,10 +1,10 @@
-EMOD-Hub
-============
-EMOD-Hub is a GitHub Organization focused on the agent-based disease model called EMOD.
-It is the home to the source code and many of the things that one needs to know about EMOD.
+# EMOD-Hub
 
-What is EMOD?
---------------
+EMOD-Hub is a GitHub Organization focused on the agent-based disease model called EMOD.
+It hosts the EMOD source code, documentation, and related community resources.
+
+## What is EMOD?
+
 Epidemiological MODeling software (EMOD), is an agent-based model (ABM) that simulates 
 the simultaneous interactions of agents in an effort to recreate complex phenomena. 
 Each agent (such as a human or vector) can be assigned a variety of "properties" 
@@ -21,18 +21,29 @@ that has a λ chance of coming up tails S(t) times, and for every person who get
 in reality. It also means that you must run many simulations to determine the 
 probability of particular outcomes.
 
-More Information
------------------
+## More Information
+
 - [History & Publication Samples](HistoryAndPublications.md)
 - [Getting Started](GettingStarted.md)
 - [The Repositories](Repositories.md)
 - [Be Part of the Community](Community.md)
 - [How to Contribute](Contributing.md)
-- [Main Documentation](https://docs.idmod.org/models.html#emod)
+- [Main Documentation](https://emod.idmod.org)
 - [Presentations](Presentations.md)
 
-Disclaimer
-----------
+## Project Status
+
+EMOD-Hub projects are provided as open source software under the MIT License for
+community use, research, and development.
+
+**Unless otherwise noted, these projects are no longer actively maintained or supported
+by IDM or the Gates Foundation.**
+
+Community contributions are welcome, and trusted collaborators may review and
+merge pull requests, but no guarantees are made regarding support, pull request review, security response, maintenance, or release timelines.
+
+## Disclaimer
+
 The code in this repository was developed by IDM and other collaborators to support 
 our joint research on flexible agent-based modeling. We've made it publicly available 
 under the MIT License to provide others with a better understanding of our research 
@@ -40,3 +51,8 @@ and an opportunity to build upon it for their own work. We make no representatio
 that the code works as intended or that we will provide support, address issues that 
 are found, or accept pull requests.  You are welcome to create your own fork and 
 modify the code to suit your own modeling needs as permitted under the MIT License.
+
+## Trademark Statement
+
+IDM & Gates Foundation names and logos are trademarks of Gates Foundation and
+may not be used to imply endorsement.

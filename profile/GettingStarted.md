@@ -1,33 +1,33 @@
-Getting Started with EMOD
-==========================
-Since EMOD is a stochastic model, you must run numerous realizations of each 
-scenario in order to collect proper statistics.  You will likely need a high 
-performance computing (HPC) platform to run these simulations.  We support 
-SLURM-based HPC as well as a large VM using our Container Platform (see below).
+# Getting Started with EMOD
 
-EMOD-HIV
-========
-To get started using EMOD-HIV, please see the documentation at:
+Most users begin with a specific disease model and follow the associated installation
+and tutorial documentation.
 
-https://emod-hub.github.io/emodpy-workflow/tutorials/get_started/
+EMOD workflows support multiple execution environments, including local development,
+GitHub Codespaces, container-based execution, and HPC platforms. Platform-specific
+setup details are described in the installation documentation for each model.
 
-emodpy-workflow is the main tool for running and configuring EMOD-HIV and these
-tutorials will show you how easy it is.
+## Choose a disease model
 
-EMOD-Malaria
-============
-The following link will show you how to run a simple example of EMOD-Malaria on
-GitHub Codespaces.
+### EMOD-Malaria
 
-https://github.com/EMOD-Hub/emodpy-malaria/blob/main/getting_started.md
+Installation instructions:
 
-Container Platform
-==================
-The Container Platform uses the Docker container to allow you to run EMOD on
-different platforms.  Via this tool, you can run EMOD on your Windows, Linux, or Mac
-laptop.  This can be great for trying things out, but you will likely need something
-with more memory and CPU-cores in order run enough simulations.  This usually requires
-the need of a SLURM-based HPC, but the Container Platform could allow you to use
-a large Virtual Machine.  The link below provides more information:
+https://emod.idmod.org/emodpy-malaria/installation/
 
-https://github.com/InstituteforDiseaseModeling/idmtools/tree/main/idmtools_platform_container
+Tutorial overview:
+
+https://emod.idmod.org/emodpy-malaria/tutorials/overview/
+
+### EMOD-HIV
+
+Installation instructions:
+
+https://emod.idmod.org/emodpy-hiv/installation/
+
+Tutorial overview:
+
+https://emod.idmod.org/emodpy-hiv/tutorials/overview/
+
+Users previously working with the deprecated DtkTools workflow may also be interested
+in [emodpy-workflow](https://emod.idmod.org/emodpy-workflow/tutorials/get_started/).
